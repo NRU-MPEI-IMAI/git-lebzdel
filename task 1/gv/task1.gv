@@ -1,0 +1,9 @@
+digraph Task1{
+    node[shape = circle]
+    "" [shape = none]
+    q2 [shape = doublecircle]
+    "" -> q1
+    q1 -> q1 [label = "a,b"]
+    q1 -> q2 [label = "c"]
+    q2 -> q2 [label = "a,b"]
+}
