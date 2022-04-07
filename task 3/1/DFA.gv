@@ -1,0 +1,12 @@
+digraph {
+    rankdir = LR
+    "" [shape = none]
+    "{q3, q7, q10}" [shape = "doublecircle" ]
+    "{q5, q7, q3, q10}" [shape = "doublecircle" ]
+    "" -> q1
+    q1 -> "{q3, q7, q10}" [label = "a"]
+    "{q3, q7, q10}" -> "{q8, q4}" [label = "b"]
+    "{q8, q4}" -> "{q5, q7, q3, q10}" [label = "a"]
+    "{q5, q7, q3, q10}" -> "{q3, q7, q10}" [label = "a"]
+    "{q5, q7, q3, q10}" -> "{q8, q4}" [label = "b"]
+}

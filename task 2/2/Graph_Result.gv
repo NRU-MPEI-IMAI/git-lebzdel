@@ -1,0 +1,22 @@
+digraph {
+    rankdir = LR
+    "" [shape = none]
+    q4p2 [shape = "doublecircle" ]
+    "" -> q1p1
+    q1p1 -> q2p1 [label = "a"]
+    q1p1 -> q1p2 [label = "b"]
+    q1p2 -> q2p2 [label = "a"]
+    q1p2 -> q1p1 [label = "b"]
+    q2p1 -> q3p1 [label = "a"]
+    q2p1 -> q2p2 [label = "b"]
+    q2p2 -> q3p2 [label = "a"]
+    q2p2 -> q2p1 [label = "b"]
+    q3p1 -> q4p1 [label = "a"]
+    q3p1 -> q3p2 [label = "b"]
+    q3p2 -> q4p2 [label = "a"]
+    q3p2 -> q3p1 [label = "b"]
+    q4p1 -> q4p1 [label = "a"]
+    q4p1 -> q4p2 [label = "b"]
+    q4p2 -> q4p2 [label = "a"]
+    q4p2 -> q4p1 [label = "b"]
+}

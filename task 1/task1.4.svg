@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62pt" height="129pt" viewBox="0.00 0.00 62.00 129.39">
+<g id="graph0" class="graph" transform="translate(4,125.38999938964844) scale(1)" data-name="task3">
+
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-125.39 58,-125.39 58,4 -4,4" style=""/>
+<g id="node1" class="node" pointer-events="visible" data-name="">
+
+</g>
+<!-- q1 -->
+<g id="node2" class="node" pointer-events="visible" data-name="q1">
+
+<ellipse fill="none" stroke="black" cx="27" cy="-24.69" rx="20.86" ry="20.86" style=""/>
+<ellipse fill="none" stroke="black" cx="27" cy="-24.69" rx="24.89" ry="24.89" style=""/>
+<text text-anchor="middle" x="27" y="-20.49" font-family="Times,serif" font-size="14.00" style="">q1</text>
+</g>
+<!-- &#45;&gt;q1 -->
+<g id="edge1" class="edge" data-name="-&gt;q1">
+
+<path fill="none" stroke="black" d="M27,-85.37C27,-77.82 27,-68.65 27,-59.79" style=""/>
+<polygon fill="black" stroke="black" points="30.5,-59.65 27,-49.65 23.5,-59.65 30.5,-59.65" style=""/>
+</g>
+</g>
+</svg>
